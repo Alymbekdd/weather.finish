@@ -1,0 +1,135 @@
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.input {
+    width: 170px;
+    height: 22px;
+    border: 1px solid;
+    outline: none;
+}
+
+.btn {
+    width: 70px;
+    height: 25px;
+    background-color: rgb(136, 215, 255);
+    border: none;
+
+    &:hover {
+        background-color: rgb(129, 203, 239);
+    }
+}
+
+.menu {
+    width: 100%;
+    /* background-color: rgb(100, 183, 255); */
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7px;
+}
+
+.allCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    width: 270px;
+    border: 1px solid;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.kartina {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.temp {
+    font-size: 30px;
+}
+
+.tp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    height: 35px;
+    padding-right: 7px;
+}
+
+.foto{
+width: 100px;
+}
+
+.vanta{
+    position: fixed;
+    z-index: 0;
+    height: 100vh;
+    
+
+    width: 100%;
+}
+.content{
+    position: relative;
+    z-index: 1;
+  
+}
+
+
+
+.temper {
+    width: 35px;
+    height: 35px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.earth {
+    width: 28px;
+    height: 28px;
+}
+
+.speed {
+    width: 35px;
+    height: 35px;
+}
+
+.cloud {
+    width: 40px;
+    height: 40px;
+}
+
+
+
