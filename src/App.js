@@ -67,29 +67,56 @@ function App() {
                         {weather.length === 0 ? 'введите называние города' :
                             <div className="menu">
                                 <div className='allCards'>
+
                                     <div className='card'>
+                                        <div className='alymbek'>
                                         <img className='icon' src={icon} alt="" />
                                         <p className='title'>Город</p>
-                                        <p>{weather.name}</p>
+                                            </div>
+                                            <div className="usekov">
+                                            <p>{weather.name}</p>
+                                                </div>                                                  
+                                    
                                     </div>
+
                                     <div className='card'>
+                                        <div className='alymbek'>
                                         <img className='earth' src={earth} alt="" />
                                         <p className='title'>Страна</p>
+                                        </div>  
+                                        <div className="usekov">
                                         <p>{weather.sys.country}</p>
+                                            </div>  
+                                       
                                     </div>
+
                                 </div>
 
+
                                 <div className='allCards kart'>
+
                                     <div className='card'>
+                                        <div className='alymbek'>
                                         <img className='speed' src={speed} alt="" />
                                         <p className='title'>Скорость</p>
+                                        </div> 
+                                        <div className="usekov">
                                         <p>{weather.wind.speed}м/с</p>
+                                            </div>                                  
+                                    
                                     </div>
+                                
                                     <div className='card'>
+                                        <div className='alymbek'>
                                         <img className='cloud' src={cloud} alt="" />
                                         <p className='title'>Небо</p>
+                                        </div>  
+                                        <div className="usekov">
                                         <p>{weather.weather[0].description}</p>
+                                            </div>                                    
+                                      
                                     </div>
+
                                 </div>
 
                                 <div className='kartina'>
@@ -118,23 +145,3 @@ function App() {
 
 export default App;
 
-// <table className='table' border={1}>
-//     <thead>
-//         <tr>
-//             <th>Город</th>
-//             <th>Страна</th>
-//             <th>Температура</th>
-//             <th>Небо</th>
-//             <th>Скорость ветра</th>
-//         </tr>
-//     </thead>
-//     <tbody>
-//         <tr>
-//             <td>{weather.name}</td>
-//             <td>{weather.sys.country}</td>
-//             <td>{weather.main.temp}C</td>
-//             <td>{weather.weather[0].description}</td>
-//             <td>{weather.wind.speed}м/с</td>
-//         </tr>
-//     </tbody>
-// </table>
