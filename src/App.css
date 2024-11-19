@@ -14,20 +14,21 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
+    margin-top: 10px;
 }
 
 .input {
     width: 170px;
-    height: 22px;
+    height: 27px;
     border: 1px solid;
     outline: none;
 }
 
 .btn {
     width: 70px;
-    height: 25px;
+    height: 30px;
     background-color: rgb(136, 215, 255);
-    border: none;
+    border: 1px solid;
 
     &:hover {
         background-color: rgb(129, 203, 239);
